@@ -1,6 +1,9 @@
 # infrastructure-as-voice-serverless
 Sample application that combines Alexa skills with AWS Systems Manager to automate instances management
 
+![alt text](https://github.com/yanaisama/infrastructure-as-voice-serverless/blob/master/architecture.png)
+
+
 Alexa Skill Development
 ```
 #npm install -g ask-cli
