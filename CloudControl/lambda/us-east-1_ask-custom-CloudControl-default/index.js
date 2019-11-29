@@ -52,7 +52,7 @@ const CriarServidorHandler = {
     console.log("TagName: " + tagName);
 
     var params = {
-      DocumentName: 'Teste', /* required */
+      DocumentName: 'YNI-CreateInstanceWithTag', /* required */
       Parameters: {
         'AmiId': [
           'ami-00dc79254d0461090'
