@@ -18,13 +18,18 @@ You optionally can create a profile for your AWS account access.
 #ask new --skill-name 'CloudControl'
 ```
 
+You are already able to deploy your skill using the following commands:
+
 ```
 #cd CloudControl
 ask deploy
-```
 
 Your skill is now deployed and enabled in the development stage. Try simulate your Alexa skill skill using "ask dialog" command.
+```
 
+You can now edit your skill either locally using any Editor or directly on Alexa developer console.
+
+To see the differences between your local version and what you have on Alexa service, use the following command:
 ```
 ask diff
 ```
@@ -47,4 +52,8 @@ var params = {
     });
  ```
 
+To deploy only the Lambda function use the following command
 
+```
+ask deploy -t lambda
+```
