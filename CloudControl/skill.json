@@ -1,0 +1,53 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "ask-custom-CloudControl-default",
+          "sourceDir": "lambda/us-east-1_ask-custom-CloudControl-default"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "name": "CloudControl"
+        },
+        "en-US": {
+          "name": "CloudControl",
+          "summary": "Spend some time coming up with an interesting, succinct description.",
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "Alexa open Cloud Manager",
+            "Alexa ask Cloud Manager create an instance for me",
+            "Alexa ask Cloud Manager stop an instance for me"
+          ],
+          "keywords": [
+            "Cloud",
+            "manager"
+          ]
+        },
+        "pt-BR": {
+          "name": "CloudControl"
+        },
+        "en-GB": {
+          "name": "CloudControl"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    }
+  }
+}

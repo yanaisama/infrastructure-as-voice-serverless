@@ -1,0 +1,39 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.3f97ec4d-aa9b-4684-8c34-d455ab312133",
+      "was_cloned": true,
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "ad41a22ada0cafb50df8bf8fd122797a"
+        },
+        "interactionModel": {
+          "de-DE": {
+            "eTag": "976ee5024229e82a9113b417a1980758"
+          },
+          "en-US": {
+            "eTag": "f04d47f00687ed583ccbd050e9af1e00"
+          },
+          "en-GB": {
+            "eTag": "f1a869ed0ba6da36042e3e33dd9d23b1"
+          }
+        },
+        "lambda": [
+          {
+            "arn": "arn:aws:lambda:us-east-1:187707271747:function:ask-custom-CloudControl-default",
+            "awsRegion": "us-east-1",
+            "functionName": "ask-custom-CloudControl-default",
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "revisionId": "df54a785-e2ed-4dd9-abc3-0748c196c3a8",
+            "codeUri": "lambda/us-east-1_ask-custom-CloudControl-default",
+            "handler": "index.handler",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      }
+    }
+  }
+}
